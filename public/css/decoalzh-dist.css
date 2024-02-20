@@ -334,14 +334,15 @@
     -ms-grid-row: 1;
     -ms-grid-column: 1;
     grid-area: textos1;
+    margin-top: -20px;
 }
 
 .textt1{
     margin-top: 30px;
     letter-spacing:1px;
     color: #393939;
-    font-size: 13px;
-    font-weight: 600;
+    font-size: 12px;
+    font-weight: 800;
     font-family: Metropolis,Metropolis-Fallback,sans-serif;
     line-height: 1.7;
 }
@@ -350,7 +351,7 @@
     -ms-grid-row: 2;
     -ms-grid-column: 1;
     grid-area: textos2;
-}
+}   
 
 .textt2{
     letter-spacing:1px;
@@ -420,20 +421,28 @@
 
 @media(max-width:799px){
 
+    .textos1{
+        width: 85%;
+    }
+
     .textos2{
         margin-top: 5%;
+        width: 90%;
     }
 
     .textos3{
         margin-top: 8%;
+        width: 90%;
     }
 
     .textos4{
         margin-top: 8%;
+        width: 90%;
     }
 
     .textt1{
-        margin: -10px;
+        width: 90%;
+        margin-left: 20px;
         text-align: justify;
         font-size: 11px;
     }
@@ -441,16 +450,22 @@
     .textt2{
         margin-top: 30px;
         margin: -10px;
+        margin-left: 20px;
+        width: 90%;
         font-size: 11px;
     }
 
     .textt3{
         margin: -10px;
+        margin-left: 20px;
+        width: 90%;
         font-size: 11px;
     }
 
     .textt4{
         margin: -10px;
+        margin-left: 20px;
+        width: 90%;
         font-size: 11px;
     }
 }
@@ -471,6 +486,7 @@
 }
 
 .bibliFinal{
+    margin-top: 38px;
     width: 100%;
     height: 87%;
 }

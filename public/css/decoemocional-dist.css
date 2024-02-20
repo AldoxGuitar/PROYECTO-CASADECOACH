@@ -212,7 +212,7 @@
     margin-top: 90px;
     text-align: center;
     font-family: sans-serif;
-    font-size: 28px;
+    font-size: 25px;
     margin-left: 12px;
     font-weight:600;
     color: #393939;
@@ -386,6 +386,23 @@
     .cajatexto2{
         -ms-grid-row: 2;
         -ms-grid-column: 1;
+    }
+}
+
+@media(max-width:799px){
+    .cajatexto1{
+        width: 80%;
+        text-align: justify;
+    }
+
+    .pa1Subbox{
+        width: 90%;
+        text-align: justify;
+    }
+
+    .cajatexto2{
+        width: 80%;
+        text-align: justify;
     }
 }
 

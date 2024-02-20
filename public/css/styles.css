@@ -212,7 +212,7 @@ li{
 
 .bx_tt3{
     margin-left: 2px;
-    font-size: 28px;
+    font-size: 21px;
     font-family: sans-serif;
     color: #393939;
 }
@@ -222,7 +222,7 @@ li{
     color: #313030;
     text-align: justify;
     letter-spacing: 1px;
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 600;
     font-family: Metropolis,Metropolis-Fallback,sans-serif;
     line-height: 1.7;
@@ -370,7 +370,7 @@ li{
         margin-left: 5px;
         color: #313030;
         text-align:left;
-        font-size: 15px;
+        font-size: 13px;
         font-weight: 600;
         font-family: Metropolis,Metropolis-Fallback,sans-serif;
         line-height: 1.7;
@@ -403,12 +403,12 @@ li{
     }
 
     .text_mision_parr3{
-        margin-top: 10px;
+        margin-top: 5px;
         width: 90%;
         margin-left: 5px;
         color: #313030;
         text-align:left;
-        font-size: 15px;
+        font-size: 13px;
         font-weight: 600;
         font-family: Metropolis,Metropolis-Fallback,sans-serif;
         line-height: 1.7;
@@ -480,6 +480,7 @@ li{
     }
 
     .text_calidad{
+        margin-top: 5px;
         margin-left: 2px;
         font-size: 19px;
         font-family: sans-serif;
@@ -487,7 +488,7 @@ li{
     }
 
     .text_mision_parr3{
-        margin-top: 10px;
+        margin-top: 12px;
         width: 90%;
         margin-left: 5px;
         color: #313030;

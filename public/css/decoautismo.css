@@ -243,7 +243,7 @@
 .cajaparf1{
     letter-spacing:1px;
     color: #504e4e;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 600;
     font-family: Metropolis,Metropolis-Fallback,sans-serif;
     line-height: 1.5;
@@ -251,6 +251,7 @@
 
 .caja_textos2{
     grid-area: caja_textos2;
+    margin-top: -25px;
     width: 470px;
 }
 
@@ -258,7 +259,7 @@
     margin-top: -10px;
     letter-spacing:1px;
     color: #504e4e;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 600;
     font-family: Metropolis,Metropolis-Fallback,sans-serif;
     line-height: 1.5;
@@ -272,7 +273,7 @@
 .cajaparf3{
     letter-spacing:1px;
     color: #504e4e;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 600;
     font-family: Metropolis,Metropolis-Fallback,sans-serif;
     line-height: 1.5;
@@ -322,7 +323,7 @@
 
 /*realizando configuración de las imagenes horizantales 4 imágenes pequenas*/
 
-.boox4_Img{
+.box_4{
     display: grid;
     gap: 15px;
     width: 90%;
@@ -334,92 +335,40 @@
     "bx_img1";
 }
 
-.bx_img1{
-    grid-area: bx_img1;
-    width: 225px;
-    height: 170px;
+
+.boxImg{
+    display: block;
+    margin: auto;
+    width: 90%;
+    height: 250px;
 }
 
-.bim1{
-    width: 100%;
-    height: 100%;
+section{
+    display: flex;
+    width: 942px;
+    height: 248px;
 }
 
-.bx_img2{
-    grid-area: bx_img2;
-    width: 225px;
-    height: 170px;
+section img{
+    width: 0;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .6;
+    transition: .5s ease;
 }
 
-.bim2{
-    width: 100%;
-    height: 100%;
+section img:hover{
+    cursor: pointer;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
 }
-
-.bx_img3{
-    grid-area: bx_img3;
-    width: 225px;
-    height: 170px;
-}
-
-
-.bim3{
-    width: 100%;
-    height: 100%;
-}
-
-.bx_img4{
-    grid-area: bx_img4;
-    width: 225px;
-    height: 170px;
-}
-
-.bim4{
-    width: 100%;
-    height: 100%;
-}
-
-@media(min-width:800px){
-    .boox4_Img{
-        width: 95%;
-        grid-template: 
-        "bx_img1 bx_img2 bx_img3 bx_img4"/
-        25% 25% 25% 25%;
-    }   
-}
-
 
 @media(max-width:799px){
-    .boox4_Img{
-        grid-template: 
-        "bx_img1"
-        "bx_img2"
-        "bx_img3"
-        "bx_img4";
-    }
-
-    .bx_img1{
-        margin-top: 40%;
-        margin-left: 20px;
-        width: 90%;
-    }
-
-    .bx_img2{
-        margin-top: 40%;
-        margin-left: 20px;
-        width: 90%;
-    }
-
-    .bx_img3{
-        margin-top: 40%;
-        margin-left: 20px;
-        width: 90%;
-    }
-
-    .bx_img4{
-        margin-top: 40%;
-        margin-left: 20px;
-        width: 90%;
+    section{
+        margin-top: 60px;
+        width: 100%;
+        height: 248px;
     }
 }
 
@@ -427,13 +376,13 @@
 
 hr{
     display: block;
-    margin-top: 60px;
+    margin-top: 100px;
     margin: auto;
     width: 75%;
 }
 
 .footer{
-    margin-top: 80px;
+    margin-top: 100px;
     width: 98%;
     height: 55px;
 }
@@ -465,6 +414,6 @@ hr{
 
 @media(max-width:799px){
     hr{
-        margin-top: 40%;
+        margin-top: 80%;
     }
 }
